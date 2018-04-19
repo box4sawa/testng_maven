@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Main Suite">
+<suite name="regression_suite2">
     <test name="Calculator" >
         <parameter name="arg1"  value="9"/>
         <parameter name="arg2"  value="9"/>

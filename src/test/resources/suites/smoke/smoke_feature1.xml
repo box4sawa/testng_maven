@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="smoke_feature1">
+    <test name="Calculator" >
+        <parameter name="arg1"  value="9"/>
+        <parameter name="arg2"  value="9"/>
+        <parameter name="expRes"  value="81"/>
+        <packages>
+            <package name="com.epam.tech_mentoring.calc"/>
+        </packages>
+    </test>
+</suite>
